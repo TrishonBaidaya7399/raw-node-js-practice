@@ -8,5 +8,4 @@ eventEmitter.on("birthday", (name, gift) => {
 eventEmitter.on("birthday", (name, gift) => {
   console.log(`I will send you a ${gift}`);
 });
-
 eventEmitter.emit("birthday", "Trishon", "bike");
